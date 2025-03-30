@@ -24,28 +24,31 @@ Follow these steps to set up the project:
 
 Clone the Repository
 
-``bash
+```bash
 git clone https://github.com/AaronDeepak-B/AI-Code-Review-Tool.git
 cd AI-Code-Review-Tool
-Create and Activate Virtual Environment (Optional) ```
-
+Create and Activate Virtual Environment (Optional)
+```
 ```bash
 python -m venv env
 source env/bin/activate    # On Linux/Mac
 env\Scripts\activate       # On Windows
-Install Dependencies     ```
+Install Dependencies
+ ```
 
 ```bash
 pip install -r requirements.txt
 Set Up Hugging Face API Key
 
-Replace "Bearer YOUR_API_KEY" in the code with your own API key from Hugging Face.```
+Replace "Bearer YOUR_API_KEY" in the code with your own API key from Hugging Face.
+```
 
 Run the Application
 
 ```bash
 python a.py
-The app will be available at http://127.0.0.1:5000.```
+The app will be available at http://127.0.0.1:5000.
+```
 
 #  🧪 Usage
 Open your browser and go to http://127.0.0.1:5000.
@@ -59,14 +62,17 @@ View the AI feedback, code explanations, and static analysis results.
 #  🛡️ Troubleshooting
 If you face ModuleNotFoundError, install missing dependencies using:
 
-***bash
+```bash
 pip install -r requirements.txt
 For Hugging Face API errors, ensure your API key is correct.***
+```
 
 If Flask errors occur, try restarting the server:
 
 ```bash
-python a.py```
+python a.py
+```
+
 #  📜 License
 This project is licensed under the MIT License.
 
