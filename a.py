@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Hugging Face API Setup (Replace with your own API key)
 API_URL = "https://api-inference.huggingface.co/models/bigcode/starcoder"
-HEADERS = {"Authorization": "Bearer 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"}
+HEADERS = {"Authorization": "Bearer YOUR_API_KEY"}
 
 # Home Route with Friendly Interface
 @app.route('/')
