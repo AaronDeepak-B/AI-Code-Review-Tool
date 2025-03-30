@@ -1,7 +1,7 @@
-**🚀 AI Code Review Tool
+#  🚀 AI Code Review Tool
 An AI-powered web application to review and analyze code for errors, performance issues, and provide suggestions using AI.
 
-**🧑‍💻 Features
+#  🧑‍💻 Features
 Code Analysis: Analyze Python code for errors and warnings.
 
 AI Feedback: Get AI-generated suggestions using Hugging Face.
@@ -10,7 +10,7 @@ Code Explanation: AI explains the code in a simple, easy-to-understand way.
 
 User-Friendly Interface: Simple and clean design for easy code input and feedback viewing.
 
-**🛠️ Tech Stack
+#  🛠️ Tech Stack
 Frontend: HTML, CSS
 
 Backend: Python, Flask
@@ -19,7 +19,7 @@ AI Integration: Hugging Face API (StarCoder Model)
 
 Linting: Pylint for static code analysis
 
-**🚀 Installation
+#  🚀 Installation
 Follow these steps to set up the project:
 
 Clone the Repository
@@ -55,7 +55,7 @@ Edit
 python a.py
 The app will be available at http://127.0.0.1:5000.***
 
-**🧪 Usage
+#  🧪 Usage
 Open your browser and go to http://127.0.0.1:5000.
 
 Paste your Python code into the provided text area.
@@ -64,7 +64,7 @@ Click the "Analyze" button.
 
 View the AI feedback, code explanations, and static analysis results.
 
-**🛡️ Troubleshooting
+#  🛡️ Troubleshooting
 If you face ModuleNotFoundError, install missing dependencies using:
 
 ***bash
@@ -79,10 +79,10 @@ If Flask errors occur, try restarting the server:
 Copy
 Edit
 python a.py
-📜 License
-This project is licensed under the MIT License.***
+#  📜 License
+This project is licensed under the MIT License.
 
-**🌟 Contributing
+#  🌟 Contributing
 Contributions are welcome!
 
 Fork the repository.
@@ -95,5 +95,5 @@ Push to the branch: git push origin feature-branch
 
 Open a Pull Request.
 
-#💬 Feedback
+#  💬 Feedback
 If you have any feedback, suggestions, or issues, feel free to open an issue in the GitHub repository.
