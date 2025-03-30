@@ -1,7 +1,7 @@
-#🚀 AI Code Review Tool
+**🚀 AI Code Review Tool
 An AI-powered web application to review and analyze code for errors, performance issues, and provide suggestions using AI.
 
-#🧑‍💻 Features
+**🧑‍💻 Features
 Code Analysis: Analyze Python code for errors and warnings.
 
 AI Feedback: Get AI-generated suggestions using Hugging Face.
@@ -10,7 +10,7 @@ Code Explanation: AI explains the code in a simple, easy-to-understand way.
 
 User-Friendly Interface: Simple and clean design for easy code input and feedback viewing.
 
-#🛠️ Tech Stack
+**🛠️ Tech Stack
 Frontend: HTML, CSS
 
 Backend: Python, Flask
@@ -19,43 +19,43 @@ AI Integration: Hugging Face API (StarCoder Model)
 
 Linting: Pylint for static code analysis
 
-#🚀 Installation
+**🚀 Installation
 Follow these steps to set up the project:
 
 Clone the Repository
 
-###bash
+***bash
 Copy
 Edit
 git clone https://github.com/AaronDeepak-B/AI-Code-Review-Tool.git
 cd AI-Code-Review-Tool
-Create and Activate Virtual Environment (Optional) ###
+Create and Activate Virtual Environment (Optional) ***
 
-###bash
+***bash
 Copy
 Edit
 python -m venv env
 source env/bin/activate    # On Linux/Mac
 env\Scripts\activate       # On Windows
-Install Dependencies     ###
+Install Dependencies     ***
 
-###bash
+***bash
 Copy
 Edit
 pip install -r requirements.txt
 Set Up Hugging Face API Key
 
-Replace "Bearer YOUR_API_KEY" in the code with your own API key from Hugging Face.###
+Replace "Bearer YOUR_API_KEY" in the code with your own API key from Hugging Face.***
 
 Run the Application
 
-###bash
+***bash
 Copy
 Edit
 python a.py
-The app will be available at http://127.0.0.1:5000.###
+The app will be available at http://127.0.0.1:5000.***
 
-#🧪 Usage
+**🧪 Usage
 Open your browser and go to http://127.0.0.1:5000.
 
 Paste your Python code into the provided text area.
@@ -64,25 +64,25 @@ Click the "Analyze" button.
 
 View the AI feedback, code explanations, and static analysis results.
 
-#🛡️ Troubleshooting
+**🛡️ Troubleshooting
 If you face ModuleNotFoundError, install missing dependencies using:
 
-###bash
+***bash
 Copy
 Edit
 pip install -r requirements.txt
-For Hugging Face API errors, ensure your API key is correct.###
+For Hugging Face API errors, ensure your API key is correct.***
 
 If Flask errors occur, try restarting the server:
 
-###bash
+***bash
 Copy
 Edit
 python a.py
 📜 License
-This project is licensed under the MIT License.###
+This project is licensed under the MIT License.***
 
-#🌟 Contributing
+**🌟 Contributing
 Contributions are welcome!
 
 Fork the repository.
